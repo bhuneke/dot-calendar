@@ -1,12 +1,23 @@
 {
-  "name": "dot-habit-calendar",
+  "name": "server",
   "version": "1.0.0",
   "description": "A simple calendar to hit daily goals and form habits.",
-  "main": "server.js",
+  "main": "server",
   "scripts": {
-    "test": "test",
-    "start": "node server.js"
+    "test": "mocha --recursive",
+    "start": "node server",
+    "start:watch": "nodemon server.js"
   },
   "author": "Brigitte Huneke",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.3",
+    "express": "^4.15.3",
+    "mongoose": "^4.10.4"
+  },
+  "devDependencies": {
+    "mocha": "^3.4.2",
+    "morgan": "^1.8.2",
+    "nodemon": "^1.11.0"
+  }
 }
