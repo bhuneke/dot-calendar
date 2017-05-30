@@ -1,0 +1,12 @@
+{
+  "name": "dot-habit-calendar",
+  "version": "1.0.0",
+  "description": "A simple calendar to hit daily goals and form habits.",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "author": "Brigitte Huneke",
+  "license": "ISC"
+}
